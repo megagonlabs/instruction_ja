@@ -1,0 +1,12 @@
+[submodule "src/hh-rlhf-49k-ja/hh-rlhf-49k-ja"]
+	path = src/hh-rlhf-49k-ja/hh-rlhf-49k-ja
+	url = https://huggingface.co/datasets/kunishou/hh-rlhf-49k-ja
+[submodule "src/hh-rlhf"]
+	path = src/hh-rlhf
+	url = https://github.com/anthropics/hh-rlhf.git
+[submodule "src/hh-rlhf-49k-ja"]
+	path = src/hh-rlhf-49k-ja
+	url = https://huggingface.co/datasets/kunishou/hh-rlhf-49k-ja.git
+[submodule "src/dolly_hhrlhf"]
+	path = src/dolly_hhrlhf
+	url = https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
