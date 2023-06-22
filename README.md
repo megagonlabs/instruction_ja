@@ -1,6 +1,10 @@
 
 # instruction_ja
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit/)
+[![CI](https://github.com/megagonlabs/instruction_ja/actions/workflows/ci.yml/badge.svg)](https://github.com/megagonlabs/instruction_ja/actions/workflows/ci.yml)
+[![Typos](https://github.com/megagonlabs/instruction_ja/actions/workflows/typos.yml/badge.svg)](https://github.com/megagonlabs/instruction_ja/actions/workflows/typos.yml)
+
 This repository provides natural dialogues in Japanese.
 They are modifications to [kunishou/hh-rlhf-49k-ja](https://huggingface.co/datasets/kunishou/hh-rlhf-49k-ja), which was machine-translated from [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) into Japanese and are not necessarily a faithful English translation of the original data.
 
