@@ -5,8 +5,9 @@
 [![CI](https://github.com/megagonlabs/instruction_ja/actions/workflows/ci.yml/badge.svg)](https://github.com/megagonlabs/instruction_ja/actions/workflows/ci.yml)
 [![Typos](https://github.com/megagonlabs/instruction_ja/actions/workflows/typos.yml/badge.svg)](https://github.com/megagonlabs/instruction_ja/actions/workflows/typos.yml)
 
-This repository provides natural dialogues in Japanese.
-They are modifications to [kunishou/hh-rlhf-49k-ja](https://huggingface.co/datasets/kunishou/hh-rlhf-49k-ja), which was machine-translated from [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) into Japanese and are not necessarily a faithful English translation of the original data.
+This repository provides natural dialogs in Japanese.
+They are modifications to [kunishou/hh-rlhf-49k-ja](https://huggingface.co/datasets/kunishou/hh-rlhf-49k-ja), which was manual machine-translated from [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) into Japanese.
+Therefore they are not necessarily a faithful English translation of the original data.
 
 ## Examples
 
@@ -28,9 +29,16 @@ They are modifications to [kunishou/hh-rlhf-49k-ja](https://huggingface.co/datas
 | Q (機械翻訳) | マグロサラダはどのように作りますか？ |
 | A (機械翻訳) | マグロサラダを作るには、1缶のマグロ、ガーキン1瓶、マヨネーズ1杯、塩のピンチ、黒胡pepperが必要です。また、まな板とシェフのナイフも必要です。|
 
+## Files
+
+- ``data/data.jsonl``
+    - Manual modified dialog
+- ``data/skipped.jsonl``
+    - Skipped dialogs for manual modifications
+
 ## Data format
 
-The format of [``data/data.jsonl``](data/data.jsonl) is described in [src/schema.py](src/schema.py).
+The data format is described in [src/schema.py](src/schema.py).
 
 ## License
 
