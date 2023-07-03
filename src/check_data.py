@@ -13,7 +13,7 @@ def operation(
     ids = set()
     with path_in.open() as inf:
         for line in inf:
-            ex = Example.parse_raw(line)
+            ex = Example.model_validate_json(line)
             assert ex.id not in ids
             ids.add(ex.id)
 
