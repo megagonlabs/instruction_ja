@@ -111,7 +111,7 @@ def operation(
             if ex.id not in ok_ids:
                 _outf = skipf
                 ex.utterances = []  # clear
-            _outf.write(ex.json(ensure_ascii=False))
+            _outf.write(json.dumps(ex.model_dump(), ensure_ascii=False))
             _outf.write("\n")
 
 
