@@ -9,6 +9,8 @@ This repository provides natural dialogs in Japanese.
 They are modifications to [kunishou/hh-rlhf-49k-ja](https://huggingface.co/datasets/kunishou/hh-rlhf-49k-ja), which was manual machine-translated from [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) into Japanese.
 Therefore they are not necessarily a faithful English translation of the original data.
 
+<!-- This count will be automatically replaced. --> Currently the number of dialogs is 533.
+
 ## Examples
 
 | 項目 | 内容 |

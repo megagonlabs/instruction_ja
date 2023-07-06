@@ -52,7 +52,7 @@ test_format:
 test: test_python test_format
 
 validate:
-	:
+	python -m src.update_readme -i README.md --ref ./data/data.jsonl --validate
 
 .PHONY: all setup \
 	flake8 black pyright isort jsonlint yamllint jsonlint pydocstyle\

@@ -22,6 +22,9 @@ python ./src/conv.py \
 
 # Convert to json
 poetry run python -m src.generate -i ./sheet.csv -o data --id2src ./src/id2src.tsv
+
+# Replace count
+python -m src.update_readme -i README.md --ref ./data/data.jsonl
 ```
 
 ## Optional
