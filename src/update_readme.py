@@ -23,7 +23,7 @@ def operation(
     with path_in.open() as inf:
         for line in inf:
             if line.startswith(PREFIX):
-                tmp += f"{PREFIX} Currently the number of dialogs is {len(ids):,}.\n"
+                tmp += f"{PREFIX} Currently, the number of dialogs is {len(ids):,}.\n"
                 pass
             else:
                 tmp += line
