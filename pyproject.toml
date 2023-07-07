@@ -15,6 +15,7 @@ pydantic = "^2.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
+cffconvert = "^2.0.0"
 flake8 = ">=3.8.4"
 isort = ">=5.6.4"
 yamllint = ">=1.25.0"

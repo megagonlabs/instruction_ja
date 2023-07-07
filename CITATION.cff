@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this work in a project of yours and write about it, please cite our paper using the following citation data."
+authors:
+  - family-names: Hayashibe
+    given-names: Yuta
+title: "megagonlabs/instruction_ja: Japanese instructions data for LLM"
+url: https://github.com/megagonlabs/instruction_ja

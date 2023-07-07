@@ -7,7 +7,7 @@ setup: setup_npm setup_python
 setup_npm:
 	npm install
 
-lint:lint_markdown lint_python
+lint:lint_markdown lint_python lint_cff
 
 lint_markdown:
 	find *.md | grep '\.md$$' \
@@ -54,9 +54,12 @@ test: test_python test_format
 validate:
 	python -m src.update_readme -i README.md --ref ./data/data.jsonl --validate
 
+lint_cff:
+	cffconvert --validate
+
 .PHONY: all setup \
 	flake8 black pyright isort jsonlint yamllint jsonlint pydocstyle\
 	test_python \
 	test_format test validate \
-	validate_example validate_correctness_labeled 
+	validate_example validate_correctness_labeled lint_cff
 
