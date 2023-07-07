@@ -1,5 +1,5 @@
 
-# instruction_ja
+# megagonlabs/instruction_ja
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit/)
 [![CI](https://github.com/megagonlabs/instruction_ja/actions/workflows/ci.yml/badge.svg)](https://github.com/megagonlabs/instruction_ja/actions/workflows/ci.yml)
@@ -45,3 +45,14 @@ The data format is described in [src/schema.py](src/schema.py).
 ## License
 
 MIT
+
+## Citation
+
+```tex
+@misc{megagonlabs_instruction_ja,
+  title={{megagonlabs/instruction_ja}: Japanese instructions data for LLM},
+  url={https://github.com/megagonlabs/instruction_ja},
+  author={Yuta Hayashibe},
+  year={2023},
+}
+```
