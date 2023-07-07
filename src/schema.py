@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-from typing import Any, Optional
+from typing import Any, Literal, Optional
 
 from pydantic import BaseModel
 
 
 class Utterance(BaseModel):
-    name: str
+    name: Literal["user", "agent"]
     text: str
 
 

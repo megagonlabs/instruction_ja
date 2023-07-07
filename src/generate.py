@@ -73,7 +73,7 @@ def operation(
             ja_a: str = items[idx_a_org]
             org_ja_ctx = [
                 Utterance(name="user", text=ja_q),
-                Utterance(name="agjat", text=ja_a),
+                Utterance(name="agent", text=ja_a),
             ]
 
             _idx: int = int(items[0])
